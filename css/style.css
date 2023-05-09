@@ -170,7 +170,7 @@ display: none;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: var(--border);
-    padding: 1.5rem;
+    padding:2rem ;
     background: var(--white);
     display: flex;
     align-items: center;
@@ -186,13 +186,29 @@ display: none;
     background-color: var(--light-bg);
     text-align: center;
 }
-
-
-
-
-
-
-
+.category .box-container .box h3{
+   font-size: 1.8rem;
+   text-transform: capitalize;
+   color: var(--black);
+   padding-bottom: .5rem;
+}
+.category .box-container .box span{
+    color: var(--light-color);
+    font-size: 1.6rem;
+}
+.category .box-container .box:hover{
+   background-color: var(--black);
+}
+.category .box-container .box:hover h3{
+    color: var(--white);
+}
+.category .box-container .box:hover span{
+    color: var(--white);
+}
+.category .box-container .box:hover i{
+    color: var(--black);
+    background-color: var(--white);
+}
 
 
 
@@ -254,6 +270,17 @@ display: none;
 
     .header .flex .navbar .active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.header .flex .navbar a{
+    display: block;
+    padding: 1.5rem 2rem;
+}
+.category .box-container{
+    grid-template-columns: repeat(auto-fit, 16.5rem);
+}
+.category .box-container .box{
+    flex-flow: column;
+    text-align: center;
 }
 }
 
