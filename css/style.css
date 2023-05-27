@@ -420,6 +420,8 @@ line-height:1.8 ;
     padding: 1.4rem;
     color: var(--black);
     margin: 1rem 0;
+    background-color: var(--light-bg);
+    font-size: 1.8rem;
 }
 .footer .grid{
     display: grid;
