@@ -392,6 +392,13 @@ line-height:1.8 ;
     color: var(--light-color);
     font-size: 1.6rem;
 }
+.job-filter form{
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border: var(--borderc);
+    border-radius: .5rem; 
+    padding: 2rem; 
+}
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
