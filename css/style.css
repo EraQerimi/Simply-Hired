@@ -382,6 +382,12 @@ line-height:1.8 ;
     border-radius: 50%;
     object-fit: cover;
 }
+.reviews .box-container .box .user h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
