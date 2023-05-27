@@ -388,6 +388,10 @@ line-height:1.8 ;
     margin-bottom: .5rem;
     text-transform: capitalize;
 }
+.reviews .box-container .box .user span{
+    color: var(--light-color);
+    font-size: 1.6rem;
+}
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
