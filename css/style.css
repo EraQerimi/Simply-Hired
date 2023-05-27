@@ -414,6 +414,13 @@ line-height:1.8 ;
 .job-filter form .flex .box p span{
     color: var(--red);
 }
+.job-filter form .flex .box .input{
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1.4rem;
+    color: var(--black);
+    margin: 1rem 0;
+}
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
