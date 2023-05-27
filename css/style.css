@@ -404,6 +404,9 @@ line-height:1.8 ;
     flex-wrap: wrap;
     column-gap: 1rem;
 }
+.job-filter form .flex .box{
+    flex: 1 1 40rem;  
+}
 .footer .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
