@@ -526,8 +526,13 @@ section {
     border-radius: .5rem;
     background-color: var(--white);
     border: var(--border);
-    box-shadow: var(--box-shadow);
-    
+    box-shadow: var(--box-shadow);   
+}
+.job-filter form .dropdown-contaniers .dropdown .lists .items{
+  padding: 1.2rem 1.4rem;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+  color: var(--black);  
 }
 
 
