@@ -546,7 +546,7 @@ section {
 .job-filter form .dropdown-contaniers .dropdown .output:focus + .lists,
 .job-filter form .dropdown-contaniers .dropdown .output:focus-within + .lists{
     transform: scaleY(1);
-    
+    transition: .2s linear;
 }
 
 
