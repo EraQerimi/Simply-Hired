@@ -509,9 +509,26 @@ section {
     padding: 1.4rem;
     font-size: 1.8rem;
     color: var(--black);
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
 }
-
-
+.job-filter form .dropdown-contaniers .dropdown .output:placeholder-shown{
+    text-transform: capitalize;
+}
+.job-filter form .dropdown-contaniers .dropdown .lists{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    
+}
 
 
 
