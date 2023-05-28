@@ -490,6 +490,34 @@ section {
     background-color: var(--light-bg);
     font-size: 1.8rem;
 }
+.job-filter form .dropdown-contaniers{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.job-filter form .dropdown-contaniers .dropdown{
+    flex: 1 1 20rem;
+    position: relative;
+
+}
+
+.job-filter form .dropdown-contaniers .dropdown .output{
+    width: 100%;
+    background: var(--light-bg);
+    border-radius: .5rem;
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    color: var(--black);
+}
+
+
+
+
+
+
+
+
 
 .footer .grid {
     display: grid;
