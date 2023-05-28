@@ -533,7 +533,9 @@ section {
   border-radius: .5rem;
   font-size: 1.8rem;
   color: var(--black);  
+  cursor: pointer;
 }
+.job-filter form .dropdown-contaniers .dropdown .lists .items
 
 
 
