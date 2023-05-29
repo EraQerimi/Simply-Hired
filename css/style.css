@@ -598,6 +598,15 @@ section {
     color: var(--light-color);
     margin-left: 3rem;
 }
+.job-details .details .description{
+    margin-top: 1.5rem;
+}
+.job-details .details .description p{
+   font-size: 1.6rem;
+   color: var(--light-color); 
+   line-height: 1.8;
+   padding: .5rem 0;
+}
 
 
 .footer .grid {
