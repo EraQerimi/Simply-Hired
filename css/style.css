@@ -650,7 +650,14 @@ section {
     color: var(--white);
 }
 
-
+.view-company .details{
+background-color: var(--white);
+box-shadow: var(--box-shadow);
+border: var(--border);
+border-radius: .5rem;
+background-color: var(--white);
+padding: 2rem;
+}
 
 
 
