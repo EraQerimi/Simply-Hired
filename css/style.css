@@ -630,11 +630,13 @@ section {
 .job-details .details .save{
     background-color: var(--light-bg);
     border-radius: .5rem;
-    padding: 1rem 2rem;
+    padding: 1.5rem;
     cursor: pointer;
     font-size: 1.8rem;
 }
-
+.job-details .details .save:hover{
+    background-color: var(--black);
+}
 .job-details .details .save i{
     margin-right: .5rem;
     color: var(--black);
@@ -643,6 +645,20 @@ section {
 .job-details .details .save span{
     color: var(--light-color);
 }
+.job-details .details .save:hover i{
+    color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .footer .grid {
