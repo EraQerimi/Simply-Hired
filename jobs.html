@@ -366,6 +366,17 @@
 
 <!--custom js file link-->
 <script src="js/script.js"></script>
+
+<script>
+    let dropdown_items = document.querySelectorAll('job-filter form .dropdown-contaniers .dropdown .lists .items');
+
+    dropdown_items.forEach(items =>){
+        items.onclick = () =>{
+            items_parents = items.parentElement.parentElement;
+            let output = items_parents.querySelector('.output');
+        }
+    }
+</script>
 </body>
 
 </html>
