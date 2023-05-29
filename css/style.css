@@ -548,6 +548,19 @@ section {
     transform: scaleY(1);
     transition: .2s linear;
 }
+.job-details .details{
+    background-color: var(--white);
+    border-radius: .5rem;
+    border: var(--border);
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+.job-details .details h3{
+    margin-bottom:1rem ;
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: capitalize;
+}
 
 
 
