@@ -682,8 +682,18 @@ margin-bottom: 1rem;
     font-size: 1.6rem;
     color: var(--light-color);
 }
-
-
+.view-company .details .description h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+    text-transform: capitalize;
+}
+.view-company .details .description p{
+    padding: .5rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 1.8;
+}
 
 
 
