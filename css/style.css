@@ -666,8 +666,21 @@ padding: 2rem;
   padding: 3rem 2rem;
   text-align: center; 
 }
-
-
+.view-company .details .info img{
+height: 10rem;
+width: 10rem;
+object-fit: contain;
+margin-bottom: 1rem;
+}
+.view-company .details .info h3{
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
+.view-company .details .info p{
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
 
 
 
