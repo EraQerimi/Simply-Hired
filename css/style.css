@@ -490,19 +490,21 @@ section {
     background-color: var(--light-bg);
     font-size: 1.8rem;
 }
-.job-filter form .dropdown-contaniers{
+
+.job-filter form .dropdown-contaniers {
     margin-top: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
-.job-filter form .dropdown-contaniers .dropdown{
+
+.job-filter form .dropdown-contaniers .dropdown {
     flex: 1 1 20rem;
     position: relative;
 
 }
 
-.job-filter form .dropdown-contaniers .dropdown .output{
+.job-filter form .dropdown-contaniers .dropdown .output {
     width: 100%;
     background: var(--light-bg);
     border-radius: .5rem;
@@ -513,10 +515,12 @@ section {
     user-select: none;
     cursor: pointer;
 }
-.job-filter form .dropdown-contaniers .dropdown .output:placeholder-shown{
+
+.job-filter form .dropdown-contaniers .dropdown .output:placeholder-shown {
     text-transform: capitalize;
 }
-.job-filter form .dropdown-contaniers .dropdown .lists{
+
+.job-filter form .dropdown-contaniers .dropdown .lists {
     position: absolute;
     top: 100%;
     left: 0;
@@ -526,29 +530,33 @@ section {
     border-radius: .5rem;
     background-color: var(--white);
     border: var(--border);
-    box-shadow: var(--box-shadow);  
+    box-shadow: var(--box-shadow);
     z-index: 10;
     transform: scaleY(0);
-    transform-origin: top; 
+    transform-origin: top;
 }
-.job-filter form .dropdown-contaniers .dropdown .lists .items{
-  padding: 1.2rem 1.4rem;
-  border-radius: .5rem;
-  font-size: 1.8rem;
-  color: var(--black);  
-  cursor: pointer;
+
+.job-filter form .dropdown-contaniers .dropdown .lists .items {
+    padding: 1.2rem 1.4rem;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+    color: var(--black);
+    cursor: pointer;
 }
-.job-filter form .dropdown-contaniers .dropdown .lists .items:hover{
+
+.job-filter form .dropdown-contaniers .dropdown .lists .items:hover {
     background-color: var(--light-bg);
-} 
+}
+
 .job-filter form .dropdown-contaniers .dropdown .lists:hover,
 .job-filter form .dropdown-contaniers .dropdown:hover .lists,
-.job-filter form .dropdown-contaniers .dropdown .output:focus + .lists,
-.job-filter form .dropdown-contaniers .dropdown .output:focus-within + .lists{
+.job-filter form .dropdown-contaniers .dropdown .output:focus+.lists,
+.job-filter form .dropdown-contaniers .dropdown .output:focus-within+.lists {
     transform: scaleY(1);
     transition: .2s linear;
 }
-.job-details .details{
+
+.job-details .details {
     background-color: var(--white);
     border-radius: .5rem;
     border: var(--border);
@@ -556,56 +564,67 @@ section {
     box-shadow: var(--box-shadow);
     overflow-x: hidden;
 }
-.job-details .details h3{
-    margin-bottom:1rem ;
+
+.job-details .details h3 {
+    margin-bottom: 1rem;
     font-size: 2rem;
     color: var(--black);
     text-transform: capitalize;
     overflow-x: hidden;
     text-overflow: ellipsis;
 }
-.job-details .details .job-info a{
- display: block;
- font-size: 1.6rem;
- color: var(--main-color);
+
+.job-details .details .job-info a {
+    display: block;
+    font-size: 1.6rem;
+    color: var(--main-color);
+    margin: .5rem 0;
 }
-.job-details .details .job-info a:hover{
+
+.job-details .details .job-info a:hover {
     text-decoration: underline;
 }
-.job-details .details .job-info p{
+
+.job-details .details .job-info p {
     padding: 1rem 0;
     font-size: 1.6rem;
     color: var(--light-color);
 }
-.job-details .details .basic-details{
+
+.job-details .details .basic-details {
     background-color: var(--light-bg);
     margin: 1.5rem 0;
     border-radius: .5rem;
     padding: 2rem;
     padding-bottom: 0;
 }
-.job-details .details .basic-details p{
+
+.job-details .details .basic-details p {
     color: var(--light-color);
     padding-bottom: 2rem;
     font-size: 1.6rem;
 }
-.job-details .details ul{
+
+.job-details .details ul {
     margin: 1rem 0;
 }
-.job-details .details ul li{
+
+.job-details .details ul li {
     padding: 1rem 0;
     font-size: 1.6rem;
     color: var(--light-color);
     margin-left: 3rem;
 }
-.job-details .details .description{
+
+.job-details .details .description {
     margin-top: 1.5rem;
 }
-.job-details .details .description p{
-   font-size: 1.6rem;
-   color: var(--light-color); 
-   line-height: 1.8;
-   padding: .5rem 0;
+
+.job-details .details .description p {
+    font-size: 1.6rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: .5rem 0;
 }
 
 
