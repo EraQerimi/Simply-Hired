@@ -554,18 +554,29 @@ section {
     border: var(--border);
     padding: 2rem;
     box-shadow: var(--box-shadow);
+    overflow-x: hidden;
 }
 .job-details .details h3{
     margin-bottom:1rem ;
     font-size: 2rem;
     color: var(--black);
     text-transform: capitalize;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
 }
-.job-details .details .job-info{
-    
+.job-details .details .job-info a{
+ display: block;
+ font-size: 1.6rem;
+ color: var(--main-color);
 }
-
-
+.job-details .details .job-info a:hover{
+    text-decoration: underline;
+}
+.job-details .details .job-info p{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
 
 
 
