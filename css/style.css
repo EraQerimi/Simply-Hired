@@ -627,6 +627,23 @@ section {
     padding: .5rem 0;
 }
 
+.job-details .details .save{
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.job-details .details .save i{
+    margin-right: .5rem;
+    color: var(--black);
+}
+
+.job-details .details .save span{
+    color: var(--light-color);
+}
+
 
 .footer .grid {
     display: grid;
