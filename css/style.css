@@ -588,9 +588,16 @@ section {
     color: var(--light-color);
     padding-bottom: 2rem;
     font-size: 1.6rem;
-
 }
-
+.job-details .details ul{
+    margin: 1rem 0;
+}
+.job-details .details ul li{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    margin-left: 3rem;
+}
 
 
 .footer .grid {
