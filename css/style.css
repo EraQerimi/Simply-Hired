@@ -705,7 +705,7 @@ margin-bottom: 1rem;
 }
 .contact .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30rem);
+    grid-template-columns: repeat(auto-fit, 35rem);
     gap: 1.5rem;
     align-items: flex-start;
     justify-content: center;
@@ -715,7 +715,7 @@ margin-bottom: 1rem;
     border: var(--border);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    padding: 2rem;
+    padding:3rem 2rem;
     text-align: center;
 }
 .contact .box-container .box i{
@@ -726,13 +726,33 @@ margin-bottom: 1rem;
     color: var(--white);
     background-color: var(--black);
     border-radius:.5rem ;
+    margin-bottom: 2rem;
 }
 .contact .box-container .box a{
-    
+  display: block;
+  padding: .5rem;  
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.5rem;
 }
-
-
-
+.contact form{
+margin-top: 2rem;  
+background-color: var(--white);
+ border: var(--border);
+ border-radius: .5rem;
+ box-shadow: var(--box-shadow);
+padding: 2rem;
+text-align: center;
+}
+.contact form h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.contact form .flex{
+display: flex;
+}
 
 
 
