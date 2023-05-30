@@ -710,7 +710,14 @@ margin-bottom: 1rem;
     align-items: flex-start;
     justify-content: center;
 }
-
+.contact .box-container .box{
+    background-color: var(--white);
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    text-align: center;
+}
 
 
 
