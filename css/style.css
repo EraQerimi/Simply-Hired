@@ -718,7 +718,18 @@ margin-bottom: 1rem;
     padding: 2rem;
     text-align: center;
 }
-
+.contact .box-container .box i{
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size:2rem ;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius:.5rem ;
+}
+.contact .box-container .box a{
+    
+}
 
 
 
