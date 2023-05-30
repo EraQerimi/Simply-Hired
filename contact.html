@@ -83,9 +83,21 @@
                      placeholder="enter your name" class="input">
                 </div>
                 <div class="box">
-                    <p>name <span>*</span></p>
-                    <input type="text" name="name" required maxlength="20" 
-                     placeholder="enter your name" class="input">
+                    <p>email <span>*</span></p>
+                    <input type="email" name="email" required maxlength="50" 
+                     placeholder="enter your email" class="input">
+                </div>
+                <div class="box">
+                    <p>number <span>*</span></p>
+                    <input type="number" name="number" required min="0" max="9999999999" maxlength="20" 
+                     placeholder="enter your number" class="input">
+                </div>
+                <div class="box">
+                    <p>role <span>*</span></p>
+                    <select name="role" required class="input">
+                        <option value="employee">job seeker (employee)</option>
+                        <option value="employeer">job provider (employee)</option>
+                    </select>
                 </div>
             </div>
         </form>
